@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receive_criminals_details">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="682dp"
+        android:text="CRIMINAL DETAILS:"
+        android:textAlignment="center"
+        android:textColor="#D81B60"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="401dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="569dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42">
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="99dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="NAME:"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_NAME"
+            android:layout_width="224dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#151515"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="394dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="509dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="GMAIL"
+            android:textColor="#0E0E0E"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_AGE"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="441dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="VEHICLE NO:"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_VEHICLENO"
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#090909"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="402dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="352dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout16"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="VEHICLE NAME"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_VEHICLENAME"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#131313"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="392dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="291dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="LOCATION:"
+            android:textColor="#020202"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_LOCATION"
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/C_BACK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="RTO OFFICE:"
+            android:textColor="#101010"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/C_RTOOFFICE"
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#0E0E0E"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/C_BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="90dp"
+        android:text="BACK"
+        android:background="@drawable/forget"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

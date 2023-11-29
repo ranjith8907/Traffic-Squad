@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525174207434",
+    "project_id": "trafficsquad-ab859",
+    "storage_bucket": "trafficsquad-ab859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525174207434:android:40c828978e817457765533",
+        "android_client_info": {
+          "package_name": "com.example.trafficsquad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525174207434-08h13t60aqkdfjfcj150j4c6k9oftucv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvN6ZnaRNWKPxQl-d1e0xZ0V6-0O7ipUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525174207434-08h13t60aqkdfjfcj150j4c6k9oftucv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

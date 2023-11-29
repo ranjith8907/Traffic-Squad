@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trafficsquad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Adding Camera, Write External Storage Permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/photo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrafficSquad">
+        <activity android:name=".Receive_criminals_details"></activity>
+        <activity android:name=".send_criminals_details" />
+        <activity android:name=".track_criminals" />
+        <activity android:name=".profilepage" />
+        <activity android:name=".userseeingbill" />
+        <activity android:name=".checkchallan" />
+        <activity android:name=".challan" />
+        <activity android:name=".Fain_page" />
+        <activity android:name=".add_vehicle" />
+        <activity android:name=".add_officier" />
+        <activity android:name=".peoplesignip" />
+        <activity android:name=".Admin_options" />
+        <activity android:name=".officer_options" />
+        <activity android:name=".people_options" />
+        <activity android:name=".admin_loginpage" />
+        <activity android:name=".officer_loginpage" />
+        <activity android:name=".menuoption" />
+        <activity android:name=".loginpage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
